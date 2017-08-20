@@ -19,7 +19,7 @@ void printHashSet(HashSet<int>^ hashList)
 	{
 		Debug::Write( item + " ");
 	}
-	Debug::WriteLine("");
+	Debug::WriteLine(" has set done");
 }
 
 void printPuckPixels(Dictionary<int, List<Pixel^> ^> ^pucks)
